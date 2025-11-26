@@ -267,12 +267,12 @@ public class MenuGUI extends JFrame {
         return headerPanel;
     }
 
-    private JScrollPane createMenuPanel() {
+      private JScrollPane createMenuPanel() {
         menuPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 20, 20)); 
-        menuPanel.setBorder(new EmptyBorder(5, 20, 15, 20));
+        menuPanel.setBorder(new EmptyBorder(20, 20, 20, 20));
         menuPanel.setBackground(Theme.BACKGROUND_COLOR);
-    
-        menuPanel.setPreferredSize(new Dimension(70, 70)); 
+ 
+        menuPanel.setPreferredSize(new Dimension(100, 100)); 
         JScrollPane menuScrollPane = new JScrollPane(menuPanel);
         menuScrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         menuScrollPane.setBorder(BorderFactory.createEmptyBorder());
